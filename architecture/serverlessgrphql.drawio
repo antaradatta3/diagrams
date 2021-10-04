@@ -1,6 +1,6 @@
-<mxfile modified="2021-10-04T14:59:20.437Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="TdsD7fo2-RUts-Hq9rZp" version="15.3.7" type="github">
+<mxfile modified="2021-10-04T15:01:24.321Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="u6XhjxGnLSb92pLa3uXc" version="15.3.7" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,6 +112,9 @@
         </mxCell>
         <mxCell id="YFsJSqenAHF_9eVJ0rGF-26" value="S3" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1040" y="500" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="YFsJSqenAHF_9eVJ0rGF-30" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/graphql-128.png;imageBackground=default;" vertex="1" parent="1">
+          <mxGeometry x="840" y="408" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
