@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T11:44:13.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" version="19.0.2" etag="K7tUbv8GqMegacuVzlfh" type="github"><diagram id="s23ml58LNn4frUmMjwJ2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-08T14:02:10.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="NkGXjobMU-SceQHAEiNK" version="19.0.2" type="github">
+  <diagram id="s23ml58LNn4frUmMjwJ2" name="Page-1">
+    <mxGraphModel dx="1351" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bjKqW-A3xY9ssyrzH0Q1-1" target="bjKqW-A3xY9ssyrzH0Q1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-1" value="Code updated" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-2" value="Create Executables" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="390" y="20" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjKqW-A3xY9ssyrzH0Q1-3" target="bjKqW-A3xY9ssyrzH0Q1-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="110" />
+              <mxPoint x="380" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-3" value="Code &amp;nbsp;published" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjKqW-A3xY9ssyrzH0Q1-4" target="bjKqW-A3xY9ssyrzH0Q1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-4" value="Copy stand files to local core set up" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-5" value="Publish local core executable to S3" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjKqW-A3xY9ssyrzH0Q1-6" target="bjKqW-A3xY9ssyrzH0Q1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-6" value="Package local core executables" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bjKqW-A3xY9ssyrzH0Q1-13" target="bjKqW-A3xY9ssyrzH0Q1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-13" value="Setup download for specific platform" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bjKqW-A3xY9ssyrzH0Q1-14" target="bjKqW-A3xY9ssyrzH0Q1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-14" value="Get integration configuration" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bjKqW-A3xY9ssyrzH0Q1-15" target="bjKqW-A3xY9ssyrzH0Q1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-15" value="Generate keys" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bjKqW-A3xY9ssyrzH0Q1-16" target="bjKqW-A3xY9ssyrzH0Q1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-16" value="Copy keys, integration configurations and app configuration to the local core&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="340" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bjKqW-A3xY9ssyrzH0Q1-17" target="bjKqW-A3xY9ssyrzH0Q1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-17" value="Generate bundle" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="500" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bjKqW-A3xY9ssyrzH0Q1-18" value="Download complete" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="500" width="130" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
