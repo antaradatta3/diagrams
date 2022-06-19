@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2022-06-19T13:43:31.204Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" version="19.0.2" etag="tw-3q5L8XCJJax6MZL0l" type="github"><diagram id="uh9RDAnAYKcgA94pklKC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-19T14:42:06.683Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="NmMydufIp4QNqmfFWibG" version="19.0.2" type="github">
+  <diagram id="uh9RDAnAYKcgA94pklKC" name="Page-1">
+    <mxGraphModel dx="1122" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hXvUmQjYD1PksgbsvmQn-1" value="Desktop Application (Running on JVM)" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="50" width="520" height="460" as="geometry">
+            <mxRectangle x="80" y="190" width="150" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hXvUmQjYD1PksgbsvmQn-9" value="Core Tools and libraries" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="hXvUmQjYD1PksgbsvmQn-1">
+          <mxGeometry x="20" y="220" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hXvUmQjYD1PksgbsvmQn-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hXvUmQjYD1PksgbsvmQn-1" source="hXvUmQjYD1PksgbsvmQn-4" target="hXvUmQjYD1PksgbsvmQn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hXvUmQjYD1PksgbsvmQn-4" value="Apache Derby" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hXvUmQjYD1PksgbsvmQn-1">
+          <mxGeometry x="350" y="320" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hXvUmQjYD1PksgbsvmQn-6" value="RxTx API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="hXvUmQjYD1PksgbsvmQn-1">
+          <mxGeometry x="40" y="239" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hXvUmQjYD1PksgbsvmQn-7" value="JFreeChart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hXvUmQjYD1PksgbsvmQn-1">
+          <mxGeometry x="205" y="239" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hXvUmQjYD1PksgbsvmQn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.458;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hXvUmQjYD1PksgbsvmQn-1" source="hXvUmQjYD1PksgbsvmQn-8" target="hXvUmQjYD1PksgbsvmQn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hXvUmQjYD1PksgbsvmQn-8" value="JDBC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hXvUmQjYD1PksgbsvmQn-1">
+          <mxGeometry x="350" y="239" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hXvUmQjYD1PksgbsvmQn-14" value="Client side presentation layer (Java FX)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="hXvUmQjYD1PksgbsvmQn-1">
+          <mxGeometry x="20" y="40" width="480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hXvUmQjYD1PksgbsvmQn-15" value="Business layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="hXvUmQjYD1PksgbsvmQn-1">
+          <mxGeometry x="20" y="120" width="480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hXvUmQjYD1PksgbsvmQn-3" value="USB to RS 485&amp;nbsp;&lt;br&gt;Converter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hXvUmQjYD1PksgbsvmQn-13" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;textDirection=ltr;labelPosition=left;verticalLabelPosition=top;align=right;verticalAlign=middle;" edge="1" parent="1" target="hXvUmQjYD1PksgbsvmQn-9">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="190" y="310" as="sourcePoint" />
+            <mxPoint x="290" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hXvUmQjYD1PksgbsvmQn-18" value="USB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hXvUmQjYD1PksgbsvmQn-13">
+          <mxGeometry x="-0.1111" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
