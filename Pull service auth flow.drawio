@@ -1,1 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2022-07-05T16:43:55.814Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" version="20.0.4" etag="U8-iMs3-gMT0mAkjuGJk" type="github"><diagram id="vfphlCGSwX1_NLO1HHdQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-05T17:55:16.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="ZSLHYNFQfEqYz_B07ssR" version="20.0.4" type="github">
+  <diagram id="vfphlCGSwX1_NLO1HHdQ" name="Page-1">
+    <mxGraphModel dx="1122" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-1" value="&lt;h1&gt;Pull Service Authentication Flow&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="760" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-4" value="Copado Salesforce" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="5qqwTEJq1dDDIR9vSWdw-2">
+          <mxGeometry x="30" y="40" width="210" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-6" value="Call QI listener endpoint" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="5qqwTEJq1dDDIR9vSWdw-4" target="5qqwTEJq1dDDIR9vSWdw-5">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="110" y="80" as="sourcePoint" />
+            <mxPoint x="170" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-13" value="Validate JWT" style="html=1;points=[];perimeter=orthogonalPerimeter;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="5qqwTEJq1dDDIR9vSWdw-4">
+          <mxGeometry x="100" y="230" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5qqwTEJq1dDDIR9vSWdw-4">
+          <mxGeometry x="100" y="500" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-5" value="Pull Services (QI)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="5qqwTEJq1dDDIR9vSWdw-2">
+          <mxGeometry x="560" y="40" width="170" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-8" value="Validate pull &lt;br&gt;service token" style="html=1;points=[];perimeter=orthogonalPerimeter;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="5qqwTEJq1dDDIR9vSWdw-5">
+          <mxGeometry x="80" y="80" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-18" value="Get pull service &lt;br&gt;configuration by &lt;br&gt;pull service id" style="html=1;points=[];perimeter=orthogonalPerimeter;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="5qqwTEJq1dDDIR9vSWdw-5">
+          <mxGeometry x="80" y="385" width="10" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Request:Object&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;pullServiceId = value1&lt;br&gt;pullServiceToken = value2&lt;br&gt;copadoToken = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="5qqwTEJq1dDDIR9vSWdw-2">
+          <mxGeometry x="310" y="130" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-10" value="Request access token (&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; font-size: 12px; font-variant-ligatures: normal; orphans: 2; text-align: left; widows: 2; text-decoration-thickness: initial;&quot;&gt;/services/oauth2/token&lt;/span&gt;)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="5qqwTEJq1dDDIR9vSWdw-2" source="5qqwTEJq1dDDIR9vSWdw-5" target="5qqwTEJq1dDDIR9vSWdw-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="330" y="250" as="sourcePoint" />
+            <mxPoint x="410" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Request:Object&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;grantType =&amp;nbsp;&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); text-decoration-thickness: initial;&quot;&gt;urn:ietf:params&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); text-decoration-thickness: initial;&quot;&gt;:oauth:grant-type:jwt-&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, system-ui, -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); text-decoration-thickness: initial;&quot;&gt;bearer&lt;/span&gt;&lt;br&gt;assertion = copadoToken&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="5qqwTEJq1dDDIR9vSWdw-2">
+          <mxGeometry x="310" y="280" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-12" value="Grants: access_token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="5qqwTEJq1dDDIR9vSWdw-2" source="5qqwTEJq1dDDIR9vSWdw-4" target="5qqwTEJq1dDDIR9vSWdw-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="450" as="sourcePoint" />
+            <mxPoint x="240" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="420" />
+              <mxPoint x="370" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-19" value="Request connection" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=-0.1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="5qqwTEJq1dDDIR9vSWdw-2" source="5qqwTEJq1dDDIR9vSWdw-18" target="5qqwTEJq1dDDIR9vSWdw-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="374" y="530" as="sourcePoint" />
+            <mxPoint x="454" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Request:Object&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;orphans: 2; widows: 2; margin:0px;margin-left:8px;&quot;&gt;instanceUrl = &lt;font face=&quot;Inter, system-ui, -apple-system, system-ui, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif&quot; color=&quot;#212121&quot;&gt;&lt;span style=&quot;caret-color: rgb(33, 33, 33); background-color: rgb(255, 255, 255);&quot;&gt;value1&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;accessToken = value2&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="5qqwTEJq1dDDIR9vSWdw-2">
+          <mxGeometry x="310" y="550" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-25" value="Return: Connection Object" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.6;exitY=1.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="5qqwTEJq1dDDIR9vSWdw-2" source="5qqwTEJq1dDDIR9vSWdw-24" target="5qqwTEJq1dDDIR9vSWdw-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="470" as="sourcePoint" />
+            <mxPoint x="420" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-26" value="Initiate query with connection object" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="5qqwTEJq1dDDIR9vSWdw-2" source="5qqwTEJq1dDDIR9vSWdw-5" target="5qqwTEJq1dDDIR9vSWdw-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="420" y="540" as="sourcePoint" />
+            <mxPoint x="500" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5qqwTEJq1dDDIR9vSWdw-27" value="Response: Data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="5qqwTEJq1dDDIR9vSWdw-2" source="5qqwTEJq1dDDIR9vSWdw-4" target="5qqwTEJq1dDDIR9vSWdw-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="770" as="sourcePoint" />
+            <mxPoint x="270" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
